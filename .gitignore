@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual Environment
+backend/myvenv/
+venv/
+env/
+ENV/
+
+# Environment variables
+.env
+backend/.env
+*.env.local
+
+# Logs
+*.log
+backend.log
+logs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+frontend/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Next.js
+frontend/.next/
+frontend/out/
+frontend/.vercel
+
+# Uploads (keep directory structure, ignore files)
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Mock data (keep directory structure, ignore files)
+backend/mock_data/*
+!backend/mock_data/.gitkeep
+
